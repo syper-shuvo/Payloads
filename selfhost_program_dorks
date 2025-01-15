@@ -1,0 +1,83 @@
+eee
+Top 50 Google Dorks for
+
+inurl:"/bug bounty"
+
+inurl:"/responsible disclosure"
+
+inurl:"/security.txt"
+
+inurl:"/responsible-disclosure/reward"
+
+inurl:"/responsible-disclosure/swag"
+
+“submit vulnerability report" | “powered by bugcrowd" | “powered by hackerone"
+
+site:.gov. "responsible disclosure"
+
+intext:"we take security very seriously"
+
+.com"powered by bugcrowd" -site
+
+report vulnerabilitysite:*.edu intext
+
+" -hackerone -bugcrowd -synack -openbugbountyinurl:"/.well-known/security ext
+
+inurl:"security report reward"
+
+intext: "responsible disclosure" university
+
+" "contact"inurl:"/security ext
+
+inurl: "vulnerability-disclosure-policy" reward
+
+intext:"report security vulnerability"
+
+inurl:"/security-report"
+
+inurl:"/vulnerability-report"
+
+inurl:"/responsible-disclosure" ext
+
+inurl: "/bug-bounty-program"
+
+inurl:"/bounty-program"
+
+inurl:"/security-researchers"
+
+.cominurl:"/security-ext" -site
+
+"inurl:"/vulnerability ext
+:"/security-response"
+
+.org "responsible disclosure"
+site:*.gov "submit vulnerability”
+intext:"vulnerability submission program"
+"“inurl:"/bounty ext
+"inurl:"/bug-bounty ext
+inurl:"security-reporting"
+inurl:"security policy reward"
+inurl:"responsible disclosure" reward
+“inurl:"/responsible-disclosure ext
+“inurl:"/responsible-disclosure ext
+"inurl:"/bug-bounty ext
+“inurl:"/vulnerability-report ext
+inurl:"security report bug reward"
+inurl: "vulnerability-reward-program"
+inurl:"/bounty-policy"
+inurl: "/bug-report"
+inurl:"security vulnerability report reward"
+site:*.edu "bug bounty"
+
+"inurl:"/vuln ext
+
+“inurl:"/security ext
+
+inurl:"security vulnerability report"
+"inurl:"/bug-bounty ext
+
+“inurl: "/responsible-disclosure ext
+inurl:"bug bounty" filetype
+
+site:*.gov intext:"submit a vulnerability"
+
